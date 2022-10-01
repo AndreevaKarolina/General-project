@@ -1,0 +1,54 @@
+.container {
+    background-color: rgba(246, 246, 246, 0.8);
+    padding: 40px 65px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+    color: #242527;
+    margin: 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+
+    justify-items: end;
+    font-size: 9px;
+    line-height: 2;
+    color: #C4C4C4;
+    margin: 0px;
+}
+
+.mask-cards img {
+    width: 197.86px;
+    height: 154.31px;
+}
+
+.mask-cards {
+    margin-top: 55px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.mask-title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    color: #242527;
+    margin: 0;
+}
+
+.mask-sudtitle {
+    font-size: 9px;
+    line-height: 2;
+    color: #C4C4C4;
+    margin: 0;
+
+}
