@@ -160,6 +160,7 @@
     background-color: #0A72AD;
     padding: 10%;
     font-size: 1vw;
+    box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
 }
 
 .MeetAndTalk__LinkContainer{
