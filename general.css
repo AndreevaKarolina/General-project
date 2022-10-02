@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     background-color: rgba(246, 246, 246, 0.8);
     padding: 40px 65px;
