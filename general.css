@@ -52,3 +52,36 @@
     margin: 0;
 
 }
+
+.logo-svg {
+    padding: 40px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo1 {
+    width: 87px;
+    height: 24px;
+}
+
+.logo2 {
+    width: 76px;
+    height: 42px;
+}
+
+.logo3 {
+    width: 67px;
+    height: 29px;
+}
+
+.logo4 {
+    width: 78px;
+    height: 36px;
+}
+
+.logo5 {
+    width: 117px;
+    height: 64px;
+}
