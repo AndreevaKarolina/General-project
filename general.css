@@ -13,40 +13,40 @@ header {
 }
 
 .navbar {
-display: flex;
-justify-content: space-between;
-position: absolute;
-width: 60%;
-padding: 10px;
-margin: 10px 0 10px 30%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0 10px 30%;
 }
 
 .logo {
-position: absolute;
-color: #FFFFFF; 
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-margin-left: 10%;
-margin-top: 20px;
-padding: 10px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 a {
-color: #C4C4C4; 
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-size: 20px;
-font-weight: 500;
-text-decoration: none;
-padding: 10px;
+    color: #C4C4C4;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
 }
 
 a:hover {
-color: #FFFFFF;
-border-radius: 30px;
-background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #project {
@@ -178,7 +178,8 @@ background-color: rgba(255, 255, 255, 0.2);
     line-height: 1.7em;
 }
 
-.MeetAndTalk__SectionTitle, .OurStory__title {
+.MeetAndTalk__SectionTitle,
+.OurStory__title {
     grid-column: 6/7;
     grid-row: 2/3;
     margin-left: 20%;
@@ -188,7 +189,8 @@ background-color: rgba(255, 255, 255, 0.2);
     line-height: 1.7em;
 }
 
-.MeetAndTalk__SectionDescription, .OurStory__descriptionText {
+.MeetAndTalk__SectionDescription,
+.OurStory__descriptionText {
     grid-column: 6/7;
     grid-row: 2/3;
     margin: 35% auto auto 20%;
@@ -207,7 +209,7 @@ background-color: rgba(255, 255, 255, 0.2);
 
 .MeetAndTalk__ButtonContainer {
     width: 100%;
-    
+
 }
 
 .MeetAndTalk__Button {
@@ -219,7 +221,7 @@ background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
 }
 
-.MeetAndTalk__LinkContainer{
+.MeetAndTalk__LinkContainer {
     width: 100%;
     font-size: 1vw;
 
@@ -291,4 +293,83 @@ background-color: rgba(255, 255, 255, 0.2);
 
 .OurStory__image {
     max-width: 100%;
+}
+
+#news {
+    background-color: #FFFFFF;
+}
+
+
+
+.data {
+    width: 45px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 21px;
+    float: left;
+    height: 30px;
+}
+
+.month {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer {
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+    box-shadow: 0px 10px 15px rgba(151, 151, 151, 0.12);
+    height: 769px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 5%;
+    color: white;
+}
+
+.general {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding-left: 20%;
+}
+
+.company {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.more {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.footer-title {
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
