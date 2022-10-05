@@ -114,6 +114,40 @@ a:hover {
 
 }
 
+HEAD .logo-svg {
+    padding: 40px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo1 {
+    width: 87px;
+    height: 24px;
+}
+
+.logo2 {
+    width: 76px;
+    height: 42px;
+}
+
+.logo3 {
+    width: 67px;
+    height: 29px;
+}
+
+.logo4 {
+    width: 78px;
+    height: 36px;
+}
+
+.logo5 {
+    width: 117px;
+    height: 64px;
+}
+
+
 .MeetAndTalk {
     margin: 10% 10% auto 10%;
     display: grid;
@@ -299,8 +333,6 @@ a:hover {
     background-color: #FFFFFF;
 }
 
-
-
 .data {
     width: 45px;
     font-weight: 600;
@@ -372,4 +404,5 @@ a:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+
 }
