@@ -327,5 +327,82 @@ HEAD .logo-svg {
 
 .OurStory__image {
     max-width: 100%;
+}
+
+#news {
+    background-color: #FFFFFF;
+}
+
+.data {
+    width: 45px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 21px;
+    float: left;
+    height: 30px;
+}
+
+.month {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer {
+    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+    box-shadow: 0px 10px 15px rgba(151, 151, 151, 0.12);
+    height: 769px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 5%;
+    color: white;
+}
+
+.general {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding-left: 20%;
+}
+
+.company {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.more {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.footer-title {
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 
 }
