@@ -33,7 +33,7 @@ header {
     padding: 10px;
 }
 
-a {
+.navbar a {
     color: #C4C4C4;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -43,7 +43,7 @@ a {
     padding: 10px;
 }
 
-a:hover {
+.navbar a:hover {
     color: #FFFFFF;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);
