@@ -78,7 +78,6 @@ header {
 }
 
 .subtitle {
-
     justify-items: end;
     font-size: 9px;
     line-height: 2;
@@ -111,7 +110,6 @@ header {
     line-height: 2;
     color: #C4C4C4;
     margin: 0;
-
 }
 
 HEAD .logo-svg {
@@ -119,7 +117,6 @@ HEAD .logo-svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .logo1 {
@@ -329,8 +326,19 @@ HEAD .logo-svg {
     max-width: 100%;
 }
 
+
 #news {
     background-color: #FFFFFF;
+    margin-bottom: 20%;
+    width: 100%;
+    padding: 10%;
+}
+
+.title-news {
+    color: #242527;
+    font-weight: 800;
+    font-size: 2.1vw;
+    line-height: 1.7em;
 }
 
 .data {
@@ -340,6 +348,7 @@ HEAD .logo-svg {
     line-height: 21px;
     float: left;
     height: 30px;
+    padding-top: 7px;
 }
 
 .month {
@@ -351,24 +360,150 @@ HEAD .logo-svg {
 .card-title {
     font-weight: 600;
     font-size: 16px;
+    line-height: 24px;
+    height: 20%;
+
 }
 
 .card-text {
     font-weight: 400;
     font-size: 18px;
+    line-height: 40px;
+    text-align: start;
+}
+
+
+.WhatWeHaveDone {
+    position: absolute;
+    width: 70%;
+    height: 65%;
+    background: linear-gradient(158deg, #474747 4.14%, #222222 44.22%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.08);
+    color: #FFFFFF;
+    margin-left: 15%;
+    margin-top: -290px;
+}
+
+.text-whatWeHave {
+    float: right;
+    width: 55%;
+    padding: 5% 4%;
+}
+
+#title-Have {
+    width: 70%;
+}
+
+#text-Have {
+    padding-top: 7%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 27px;
+    color: #C4C4C4;
+}
+
+.next-comment {
+    text-align: end;
+    padding-top: 15%;
+}
+
+#left-button {
+    border: 0cm;
+    background-color: transparent;
+}
+
+#right-button {
+    border: 0cm;
+    background-color: #0A72AD;
+    width: 57px;
+    height: 57px;
+    margin-left: 3%;
+}
+
+.comments-WhatWeHave {
+    float: left;
+    width: 40%;
+    padding: 5% 5%;
+}
+
+.customer {
+    width: 80%;
+}
+
+.comment {
+    background-color: #FFFFFF;
+    color: #242527;
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    margin-left: 13%;
+    margin-top: -10%;
+}
+
+.marks {
+    position: absolute;
+    width: 30%;
+    margin-top: -12%;
+    margin-left: 35%;
+}
+
+#customer-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #242527;
+    padding: 15% 10% 0 20%;
+}
+
+#customer-comment {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #939393;
+    padding: 0 10% 10% 10%;
 }
 
 .footer {
-    background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+    background: linear-gradient(158deg, #474747 4.14%, #222222 44.22%);
     box-shadow: 0px 10px 15px rgba(151, 151, 151, 0.12);
-    height: 769px;
+    height: 90vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 45%;
     gap: 5%;
     color: white;
+}
+
+.footer-media {
+    background-color: #2a4150e7;
+    border-radius: 2000px;
+    border: 0cm;
+    width: 42px;
+    height: 42px;
+}
+
+#icon-google:hover {
+    background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
+    transition: 0.7s;
+}
+
+#icon-twitter:hover {
+    background-color: rgb(21, 146, 203);
+    transition: 0.6s;
+}
+
+#icon-insta:hover {
+    background: linear-gradient(rgb(107, 11, 190), rgb(229, 188, 25));
+    transition: 0.6s;
+}
+
+#icon-in:hover {
+    background-color: rgb(53, 92, 221);
+    transition: 0.6s;
 }
 
 .general {
@@ -392,7 +527,12 @@ HEAD .logo-svg {
     color: white;
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 50px;
+}
+
+.footer-link :hover {
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 .footer-title {
@@ -403,6 +543,16 @@ HEAD .logo-svg {
     width: 80%;
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
 
+.company-link {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.more-link {
+    display: flex;
+    flex-flow: column wrap;
 }
