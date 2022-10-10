@@ -57,7 +57,27 @@ header {
 .weprovide {
     height: 85vh;
     width: 100vw;
+    display: flex;
 }
+
+.description {
+    margin-left: 10%;
+    width: 50%;
+    height: 75%;
+}
+
+.weprovide_header {
+    font-size: 50px;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+
+p {
+    color: #C4C4C4;
+    font-size: 20px;
+    line-height: 40px;
+}
+
 
 .ExcellentServices__container {
     background-color: rgba(246, 246, 246, 0.8);
