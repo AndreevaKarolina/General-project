@@ -28,9 +28,9 @@ header {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1rem;
     margin-left: 10%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 }
 
@@ -38,7 +38,7 @@ header {
     color: #C4C4C4;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
     padding: 10px;
@@ -48,6 +48,7 @@ header {
     color: #FFFFFF;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
 }
 
 #project {
@@ -68,7 +69,7 @@ header {
 }
 
 .weprovide_header {
-    font-size: 50px;
+    font-size: 3rem;
     color: #FFFFFF;
     line-height: 80px;
 }
@@ -77,6 +78,39 @@ p {
     color: #C4C4C4;
     font-size: 20px;
     line-height: 40px;
+}
+
+.stats {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover {
+    background: linear-gradient(97.65deg, #60BBEE 0.33%, #0A72AD 93.35%);
+    box-shadow: 0px 5.37671px 8.06506px rgba(1, 115, 153, 0.2);
+    width: 15vw;
+    height: 10vh;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.numbers {
+    color: #C4C4C4;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 10vw;
+    
+}
+
+#numbersid {
+color: #FFFFFF;
+font-weight: 700;
+font-size: 2rem;
 }
 
 
@@ -552,7 +586,7 @@ HEAD .logo-svg {
     line-height: 50px;
 }
 
-.footer-link :hover {
+.footer-link:hover {
     color: antiquewhite;
     text-decoration: none;
 }
