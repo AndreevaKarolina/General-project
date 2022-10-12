@@ -3,6 +3,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
 .firstblock {
     background: linear-gradient(152deg, #474747 4.14%, #222222 44.22%);
     width: 100vw;
@@ -207,6 +220,15 @@ HEAD .logo-svg {
     position: relative;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 40%;
     grid-template-rows: 1fr 3fr 1fr;
+}
+
+.MeetAndTalk a:hover {
+    text-decoration: none;
+}
+
+.OurStory a:hover {
+    text-decoration: none;
+
 }
 
 .MeetAndTalk__ImageContainer {
