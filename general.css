@@ -105,6 +105,7 @@ width: 40vw;
 height: 90vh;
 position: absolute;
 margin-left: 50%;
+margin-top: -10%;
 grid-column: 50%;
 }
 
