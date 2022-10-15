@@ -23,6 +23,10 @@
         gap: 2%;
     }
 
+    .MeetAndTalk__Image {
+        display: none;
+    }
+
 
 }
 
@@ -38,7 +42,10 @@
         grid-template-rows: repeat(2, 1fr);
         gap: 2%;
     }
-    
+
+    .MeetAndTalk__Image {
+        display: none;
+    }
 }
 
 .firstblock {
@@ -248,11 +255,12 @@ HEAD .logo-svg {
 
 .MeetAndTalk a:hover {
     text-decoration: none;
+    color: antiquewhite;
 }
 
 .OurStory a:hover {
     text-decoration: none;
-
+    color: antiquewhite;
 }
 
 .MeetAndTalk__ImageContainer {
@@ -264,9 +272,7 @@ HEAD .logo-svg {
 }
 
 .MeetAndTalk__Image {
-    display: none;
     max-width: 100%;
-    
 }
 
 
