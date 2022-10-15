@@ -89,16 +89,15 @@ p {
 
 .buildingcontainer {
 width: 40vw;
-height: 90vh;
+height: 70vh;
 position: absolute;
 margin-left: 50%;
-margin-top: -10%;
 grid-column: 50%;
 }
 
 .building {
     width: 40vw;
-    height: 90vh;
+    height: 80vh;
     float: right;
 }
 
@@ -119,18 +118,18 @@ grid-column: 50%;
     
 }
 
-.numbers {
+.stats__numbers {
     color: #C4C4C4;
     font-weight: 500;
     font-size: 1rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding-top: 6em;
     width: 10vw;
     
 }
 
-#numbersid {
+.numbersid {
 color: #FFFFFF;
 font-weight: 700;
 font-size: 2rem;
@@ -155,8 +154,11 @@ margin: 1em 1em 1em 1em;
 font-size: 1em;
 }
 
-#operated {
+.bluething_part1, .bluething_part2 {
     font-size: 20px;
+    color: #FFFFFF;
+    padding: 1em 1em 1em 1em;
+    margin: 1em 1em 1em 1em;
 }
 
 
