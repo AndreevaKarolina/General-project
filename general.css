@@ -264,7 +264,9 @@ HEAD .logo-svg {
 }
 
 .MeetAndTalk__Image {
+    display: none;
     max-width: 100%;
+    
 }
 
 
