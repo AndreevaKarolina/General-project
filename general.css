@@ -5,10 +5,24 @@
 
 /* для компа */
 @media screen and (min-width: 1024px) {
-    
+    .OurCollection__allImagesContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2%;
+    }
+
+
+
 }
 /* для планшета */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .OurCollection__allImagesContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2%;
+    }
+
 
 }
 
@@ -16,6 +30,13 @@
 @media screen and (max-width: 767px) {
     .OurStory__imageContainer {
         margin-top: 10%;
+    }
+    
+    .OurCollection__allImagesContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2%;
     }
     
 }
@@ -688,6 +709,7 @@ HEAD .logo-svg {
 .OurCollection {
     margin: 10%;
 }
+
 .OurCollection__title {
     color: rgba(36, 37, 39, 1);
     font-weight: 800;
