@@ -667,7 +667,7 @@ HEAD .logo-svg {
 .OurCollection__title {
     color: rgba(36, 37, 39, 1);
     font-weight: 800;
-    font-size: 2.1vw;
+    font-size: 1.5rem;
     line-height: 1.7em;
     margin-bottom: 5%;
 }
@@ -715,17 +715,17 @@ HEAD .logo-svg {
 
 .TreasuryTower__text {
     grid-column: 1/2;
-    margin: 10% auto auto 9%;
+    margin: 15% auto auto 9%;
 }
 
 .TreasuryTower__text1{
 color: rgba(36, 37, 39, 1);
-font-size: 1vw;
+font-size: 0.7rem;
 font-weight: 600;
 }
 
 .TreasuryTower__text2 {
-    font-size: 0.7vw;
+    font-size: 0.5rem;
     color: rgba(196, 196, 196, 1);
     font-weight: 500;
     margin-top: 5%;
